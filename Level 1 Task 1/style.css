@@ -1,0 +1,126 @@
+*{
+    background-color: black;
+}
+.nav-link{
+    color: rgb(35, 180, 95);
+    font-size: 20px;
+   margin: 0;
+}
+.navbar{
+   width: 100%;
+    position: fixed;
+}
+.move h1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: rgb(35, 180, 95);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+         typing 3.5s steps(40,end),
+         blink-caret .5s step-end infinite; 
+}
+@keyframes typing{
+    from{width: 0}
+    to{width: 100%}
+}
+@keyframes blink-caret{
+    from,to {border-color: transparent}
+    50% {border-color: orange;}
+}
+#home{
+    height: 1000px;
+    width: 100%;
+}
+#about{
+    height: 300px;
+    width: 100%;
+}
+
+.abt h1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: rgb(35, 180, 95);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+         typing 3.5s steps(40,end),
+         blink-caret .5s step-end infinite; 
+}
+.cont{
+    color: rgb(35, 180, 95);
+    padding: 10px;
+    margin-top: 10px;
+}
+input[type=text],textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid wheat;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=mail],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid wheat;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=submit]{
+    text-align: center;
+    background-color: rgb(35, 180, 95);
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    margin-left: 580px;
+    border: blanchedalmond;
+    border-radius: 20px;
+    font-size: 25px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type=text]:hover{
+    background-color: rgb(35, 180, 95);
+    color: #000;
+    
+
+}
+input[type=mail]:hover{
+    background-color: rgb(35, 180, 95);
+    color: #000;
+}
+textarea:hover{
+    background-color: rgb(35, 180, 95);
+    color: rgb(0, 0, 0);
+}
+input[type=submit]:hover{
+    background-color: aquamarine;
+    
+}
+.fname{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.email{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.resp{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+}
